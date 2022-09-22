@@ -79,7 +79,7 @@ li:nth-child(3n + 2) .details {
   position: absolute;
   z-index: 3;
   width: 88%;
-  height: 91%;
+  height: 90%;
   top: 0;
   transform: translateX(6.5%) translateY(5%);
   border-radius: 1.2vw;
@@ -107,7 +107,7 @@ li:nth-child(3n + 2) p {
 }
 
 h6 {
-  top: 3.5%;
+    top: 3.25%;
   left: 4%;
 }
 p {
