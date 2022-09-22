@@ -97,11 +97,11 @@ p {
   background-color: #53b3cb;
   padding: 0.4em;
 }
-li:nth-child(3n + 1) h2,
+li:nth-child(3n + 1) h4,
 li:nth-child(3n + 1) p {
   background-color: #f9c22e;
 }
-li:nth-child(3n + 2) h2,
+li:nth-child(3n + 2) h4,
 li:nth-child(3n + 2) p {
   background-color: #35ce8d;
 }
