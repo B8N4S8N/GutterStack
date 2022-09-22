@@ -86,27 +86,27 @@ li:nth-child(3n + 2) .details {
   background: #001a23;
   overflow: hidden;
 }
-h4,
+h6,
 p,
 img {
   position: absolute;
   z-index: 4;
 }
-h4,
+h6,
 p {
   background-color: #53b3cb;
   padding: 0.4em;
 }
-li:nth-child(3n + 1) h4,
+li:nth-child(3n + 1) h6,
 li:nth-child(3n + 1) p {
   background-color: #f9c22e;
 }
-li:nth-child(3n + 2) h4,
+li:nth-child(3n + 2) h6,
 li:nth-child(3n + 2) p {
   background-color: #35ce8d;
 }
 
-h4 {
+h6 {
   top: 3.5%;
   left: 4%;
 }
