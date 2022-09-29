@@ -188,3 +188,254 @@ li:hover img {
     margin: 4vw 6vw 0 0.5vw;
   }
 }
+
+body #gutterkicks {
+  @import url("https://fonts.googleapis.com/css?family=Passion+One|Montserrat:400,700");
+
+  :root {
+    --columns: 3;
+  }
+  
+  body {
+    position: relative;
+    background: #fdf4e0;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1440 1440' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2'%3E%3Cpath d='M100 1500H0v-60h100v60zm-20-20v-20H20v20h60z' fill='%2326b6de'/%3E%3Cpath d='M120 1440h100v100h-20v-80h-60v80H20v120H-80v-100h20v80H0v-120h120v-80zM1540 60h-100V0h100v60zm-20-20V20h-60v20h60zM1540 540h-100v-60h100v60zm-20-20v-20h-60v20h60zM1540 1020h-100v-60h100v60zm-20-20v-20h-60v20h60zM1540 1500h-100v-60h100v60zm-20-20v-20h-60v20h60zM1220 1460v-20h-100v100h40v20H920v20h260v-60h-40v-60h80z' fill='%2326b6de'/%3E%3Cpath d='M1560 1440h100v100h-20v-80h-60v80h-120v120h-100v-100h20v80h60v-120h120v-80z' fill='%2326b6de'/%3E%3Cpath fill='none' d='M0 0h1440v1440H0z'/%3E%3CclipPath id='a'%3E%3Cpath d='M0 0h1440v1440H0z'/%3E%3C/clipPath%3E%3Cg clip-path='url(%23a)' fill='%2326b6de'%3E%3Cpath d='M120 0h100v100h-20V20h-60v80H20v120H-80V120h20v80H0V80h120V0z'/%3E%3Cpath d='M360-80h100V20h-20v-80h-60v80H260v120H160V40h20v80h60V0h120v-80z'/%3E%3Cpath d='M600-160h100v100h-20v-80h-60v80H500V60H400V-40h20v80h60V-80h120v-80zM0-200h100v100H80v-80H20v80h-120V20h-100V-80h20V0h60v-120H0v-80z'/%3E%3Cpath d='M20-60v-20H-80V20h40v20h-240v20h260V0h-40v-60h80z'/%3E%3Cpath d='M100 60H0V0h100v60zM80 40V20H20v20h60zM700 100H600V40h100v60zm-20-20V60h-60v20h60zM460 180H360v-60h100v60zm-20-20v-20h-60v20h60zM220 260H120v-60h100v60zm-20-20v-20h-60v20h60z'/%3E%3Cpath d='M140 140v-20H40v100h40v20h-240v20h260v-60H60v-60h80z'/%3E%3Cpath d='M380 60V40H280v100h40v20H80v20h260v-60h-40V60h80z'/%3E%3Cpath d='M620-20v-20H520V60h40v20H320v20h260V40h-40v-60h80zM100 540H0v-60h100v60zm-20-20v-20H20v20h60z'/%3E%3Cpath d='M120 480h100v100h-20v-80h-60v80H20v120H-80V600h20v80H0V560h120v-80z'/%3E%3Cpath d='M360 400h100v100h-20v-80h-60v80H260v120H160V520h20v80h60V480h120v-80zM840 240h100v100h-20v-80h-60v80H740v120H640V360h20v80h60V320h120v-80z'/%3E%3Cpath d='M600 320h100v100h-20v-80h-60v80H500v120H400V440h20v80h60V400h120v-80zM0 280h100v100H80v-80H20v80h-120v120h-100V400h20v80h60V360H0v-80z'/%3E%3Cpath d='M240 200h100v100h-20v-80h-60v80H140v120H40V320h20v80h60V280h120v-80z'/%3E%3Cpath d='M480 120h100v100h-20v-80h-60v80H380v120H280V240h20v80h60V200h120v-80z'/%3E%3Cpath d='M720 40h100v100h-20V60h-60v80H620v120H520V160h20v80h60V120h120V40zM260 340v-20H160v100h40v20H-40v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M500 260v-20H400v100h40v20H200v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M740 180v-20H640v100h40v20H440v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M980 100V80H880v100h40v20H680v20h260v-60h-40v-60h80zM20 420v-20H-80v100h40v20h-240v20h260v-60h-40v-60h80zM340 460H240v-60h100v60zm-20-20v-20h-60v20h60zM580 380H480v-60h100v60zm-20-20v-20h-60v20h60zM700 580H600v-60h100v60zm-20-20v-20h-60v20h60zM460 660H360v-60h100v60zm-20-20v-20h-60v20h60zM220 740H120v-60h100v60zm-20-20v-20h-60v20h60z'/%3E%3Cpath d='M140 620v-20H40v100h40v20h-240v20h260v-60H60v-60h80z'/%3E%3Cpath d='M380 540v-20H280v100h40v20H80v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M620 460v-20H520v100h40v20H320v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M860 380v-20H760v100h40v20H560v20h260v-60h-40v-60h80zM0 760h100v100H80v-80H20v80h-120v120h-100V880h20v80h60V840H0v-80z'/%3E%3Cpath d='M240 680h100v100h-20v-80h-60v80H140v120H40V800h20v80h60V760h120v-80z'/%3E%3Cpath d='M480 600h100v100h-20v-80h-60v80H380v120H280V720h20v80h60V680h120v-80z'/%3E%3Cpath d='M720 520h100v100h-20v-80h-60v80H620v120H520V640h20v80h60V600h120v-80zM840 720h100v100h-20v-80h-60v80H740v120H640V840h20v80h60V800h120v-80zM580 860H480v-60h100v60zm-20-20v-20h-60v20h60zM340 940H240v-60h100v60zm-20-20v-20h-60v20h60zM100 1020H0v-60h100v60zm-20-20v-20H20v20h60z'/%3E%3Cpath d='M20 900v-20H-80v100h40v20h-240v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M260 820v-20H160v100h40v20H-40v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M500 740v-20H400v100h40v20H200v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M740 660v-20H640v100h40v20H440v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M980 580v-20H880v100h40v20H680v20h260v-60h-40v-60h80zM120 960h100v100h-20v-80h-60v80H20v120H-80v-100h20v80H0v-120h120v-80z'/%3E%3Cpath d='M360 880h100v100h-20v-80h-60v80H260v120H160v-100h20v80h60V960h120v-80z'/%3E%3Cpath d='M600 800h100v100h-20v-80h-60v80H500v120H400V920h20v80h60V880h120v-80zM700 1060H600v-60h100v60zm-20-20v-20h-60v20h60zM460 1140H360v-60h100v60zm-20-20v-20h-60v20h60zM220 1220H120v-60h100v60zm-20-20v-20h-60v20h60z'/%3E%3Cpath d='M140 1100v-20H40v100h40v20h-240v20h260v-60H60v-60h80z'/%3E%3Cpath d='M380 1020v-20H280v100h40v20H80v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M620 940v-20H520v100h40v20H320v20h260v-60h-40v-60h80zM0 1240h100v100H80v-80H20v80h-120v120h-100v-100h20v80h60v-120H0v-80z'/%3E%3Cpath d='M240 1160h100v100h-20v-80h-60v80H140v120H40v-100h20v80h60v-120h120v-80z'/%3E%3Cpath d='M480 1080h100v100h-20v-80h-60v80H380v120H280v-100h20v80h60v-120h120v-80z'/%3E%3Cpath d='M720 1000h100v100h-20v-80h-60v80H620v120H520v-100h20v80h60v-120h120v-80zM580 1340H480v-60h100v60zm-20-20v-20h-60v20h60zM820 300H720v-60h100v60zm-20-20v-20h-60v20h60zM820 780H720v-60h100v60zm-20-20v-20h-60v20h60zM820 1260H720v-60h100v60zm-20-20v-20h-60v20h60zM340 1420H240v-60h100v60zm-20-20v-20h-60v20h60zM20 1380v-20H-80v100h40v20h-240v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M260 1300v-20H160v100h40v20H-40v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M500 1220v-20H400v100h40v20H200v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M740 1140v-20H640v100h40v20H440v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M980 1060v-20H880v100h40v20H680v20h260v-60h-40v-60h80zM860 860v-20H760v100h40v20H560v20h260v-60h-40v-60h80zM860-100v-20H760v100h40V0H560v20h260v-60h-40v-60h80zM500 1220v-20H400v100h40v20H200v20h260v-60h-40v-60h80zM360 1360h100v100h-20v-80h-60v80H260v120H160v-100h20v80h60v-120h120v-80z'/%3E%3Cpath d='M600 1280h100v100h-20v-80h-60v80H500v120H400v-100h20v80h60v-120h120v-80z'/%3E%3Cpath d='M840 1200h100v100h-20v-80h-60v80H740v120H640v-100h20v80h60v-120h120v-80z'/%3E%3Cpath d='M860 1340v-20H760v100h40v20H560v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M620 1420v-20H520v100h40v20H320v20h260v-60h-40v-60h80zM940 20H840v-60h100v60zM920 0v-20h-60V0h60zM1060 220H960v-60h100v60zm-20-20v-20h-60v20h60z'/%3E%3Cpath d='M960-40h100V60h-20v-80h-60v80H860v120H760V80h20v80h60V40h120v-80zM1080 160h100v100h-20v-80h-60v80H980v120H880V280h20v80h60V240h120v-80z'/%3E%3Cpath d='M1320 80h100v100h-20v-80h-60v80h-120v120h-100V200h20v80h60V160h120V80z'/%3E%3Cpath d='M1560 0h100v100h-20V20h-60v80h-120v120h-100V120h20v80h60V80h120V0zM1200-120h100v100h-20v-80h-60v80h-120v120h-100V0h20v80h60V-40h120v-80z'/%3E%3Cpath d='M1440-200h100v100h-20v-80h-60v80h-120V20h-100V-80h20V0h60v-120h120v-80zM1220 20V0h-100v100h40v20H920v20h260V80h-40V20h80z'/%3E%3Cpath d='M1460-60v-20h-100V20h40v20h-240v20h260V0h-40v-60h80zM1300 140h-100V80h100v60zm-20-20v-20h-60v20h60zM1420 340h-100v-60h100v60zm-20-20v-20h-60v20h60zM1180 420h-100v-60h100v60zm-20-20v-20h-60v20h60zM940 500H840v-60h100v60zm-20-20v-20h-60v20h60z'/%3E%3Cpath d='M1100 300v-20h-100v100h40v20H800v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1340 220v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1580 140v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80zM1300 620h-100v-60h100v60zm-20-20v-20h-60v20h60zM1060 700H960v-60h100v60zm-20-20v-20h-60v20h60z'/%3E%3Cpath d='M1320 560h100v100h-20v-80h-60v80h-120v120h-100V680h20v80h60V640h120v-80z'/%3E%3Cpath d='M1560 480h100v100h-20v-80h-60v80h-120v120h-100V600h20v80h60V560h120v-80zM1080 640h100v100h-20v-80h-60v80H980v120H880V760h20v80h60V720h120v-80zM960 440h100v100h-20v-80h-60v80H860v120H760V560h20v80h60V520h120v-80z'/%3E%3Cpath d='M1200 360h100v100h-20v-80h-60v80h-120v120h-100V480h20v80h60V440h120v-80z'/%3E%3Cpath d='M1440 280h100v100h-20v-80h-60v80h-120v120h-100V400h20v80h60V360h120v-80z'/%3E%3Cpath d='M1460 420v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1700 340v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80zM1220 500v-20h-100v100h40v20H920v20h260v-60h-40v-60h80zM940 980H840v-60h100v60zm-20-20v-20h-60v20h60zM1420 820h-100v-60h100v60zm-20-20v-20h-60v20h60zM1180 900h-100v-60h100v60zm-20-20v-20h-60v20h60z'/%3E%3Cpath d='M1100 780v-20h-100v100h40v20H800v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1340 700v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1580 620v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80zM1200 840h100v100h-20v-80h-60v80h-120v120h-100V960h20v80h60V920h120v-80z'/%3E%3Cpath d='M1440 760h100v100h-20v-80h-60v80h-120v120h-100V880h20v80h60V840h120v-80zM960 920h100v100h-20v-80h-60v80H860v120H760v-100h20v80h60v-120h120v-80zM1300 1100h-100v-60h100v60zm-20-20v-20h-60v20h60zM1060 1180H960v-60h100v60zm-20-20v-20h-60v20h60z'/%3E%3Cpath d='M1220 980v-20h-100v100h40v20H920v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1460 900v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1700 820v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80zM1320 1040h100v100h-20v-80h-60v80h-120v120h-100v-100h20v80h60v-120h120v-80z'/%3E%3Cpath d='M1560 960h100v100h-20v-80h-60v80h-120v120h-100v-100h20v80h60v-120h120v-80zM1080 1120h100v100h-20v-80h-60v80H980v120H880v-100h20v80h60v-120h120v-80zM940 1460H840v-60h100v60zm-20-20v-20h-60v20h60zM1420 1300h-100v-60h100v60zm-20-20v-20h-60v20h60zM1180 1380h-100v-60h100v60zm-20-20v-20h-60v20h60z'/%3E%3Cpath d='M1100 1260v-20h-100v100h40v20H800v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1340 1180v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1580 1100v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80zM1200 1320h100v100h-20v-80h-60v80h-120v120h-100v-100h20v80h60v-120h120v-80z'/%3E%3Cpath d='M1440 1240h100v100h-20v-80h-60v80h-120v120h-100v-100h20v80h60v-120h120v-80zM960 1400h100v100h-20v-80h-60v80H860v120H760v-100h20v80h60v-120h120v-80z'/%3E%3Cpath d='M1460 1380v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1700 1300v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80z'/%3E%3Cpath d='M1700 1300v-20h-100v100h40v20h-240v20h260v-60h-40v-60h80z'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: calc(1200% / (var(--columns)));
+  }
+  
+  body::after {
+    display: block;
+    z-index: 5;
+    height: 34vw;
+    content: "";
+    background-color: #87c38f;
+    clip-path: polygon(100% 100%, 100% 0%, 0% 100%);
+    -webkit-clip-path: polygon(100% 100%, 100% 0%, 0% 100%);
+  }
+  
+  ul::after {
+    grid-column: 1/-1;
+    height: 5vw;
+    content: "";
+  }
+  
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 34vw;
+    background-color: #87c38f;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  }
+  h1 {
+    color: #2c363f;
+    margin: 3vw;
+    transform: skewY(-18.6deg);
+    font-size: 13vw;
+    font-family: "Passion One", cursive;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    transform-origin: top right;
+    transform: skewY(-18.6deg);
+    overflow: hidden;
+  }
+  
+  li {
+    position: relative;
+    grid-column-end: span 2;
+    padding-top: 100%;
+    transform-origin: top left;
+    transform: skewY(18.6deg);
+  }
+  
+  li:nth-child(2n) {
+    grid-column-start: 2;
+  }
+  
+  li::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #467379;
+    z-index: -1;
+    clip-path: circle(31% at 50% 45%);
+    -webkit-clip-path: circle(31% at 50% 45%);
+  }
+  
+  div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 75%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform: rotate(0) translate(0, 0);
+    transition-property: transform;
+    transition-duration: 0.3s;
+  }
+  
+  div > h2 {
+    font: 400 calc(14vw / (var(--columns))) "Passion One", cursive;
+    display: block;
+    padding: 4% 3% 3% 4%;
+    position: absolute;
+    background-color: #87c38f;
+    color: #2c363f;
+    transform: skewY(-18.6deg);
+    bottom: 0%;
+    left: 3%;
+    letter-spacing: 0.1em;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    z-index: 10;
+    opacity: 0;
+  }
+  
+  div > p {
+    font: 700 calc(18vw / (var(--columns))) "Montserrat", sans-serif;
+    display: block;
+    position: absolute;
+    top: -28%;
+    left: 50%;
+    color: #fdf4e0;
+    padding-right: 4%;
+  
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 42%;
+    letter-spacing: 0.1em;
+    transform: rotate(-90deg) translate(-40%, 0);
+    transition-property: transform;
+    transition-duration: 0.3s;
+  }
+  
+  div > p::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(217, 43, 23, 0.9);
+    z-index: -2;
+    clip-path: polygon(
+      0% 50%,
+      50% 0%,
+      50% 15%,
+      100% 15%,
+      100% 85%,
+      50% 85%,
+      50% 100%
+    );
+    -webkit-clip-path: polygon(
+      0% 50%,
+      50% 0%,
+      50% 15%,
+      100% 15%,
+      100% 85%,
+      50% 85%,
+      50% 100%
+    );
+  }
+  
+  div:hover > p {
+    transform: rotate(-30deg) translate(-20%, 90%);
+  }
+  
+  div:hover > img {
+    transform: rotate(15deg) translate(-10%, -10%) scale(1.2);
+  }
+  
+  div:hover > h2 {
+    opacity: 1;
+  }
+  
+  @media (min-width: 600px) {
+    :root {
+      --columns: 5;
+    }
+    li:nth-child(2n) {
+      grid-column-start: auto;
+    }
+    li:nth-child(4n-1) {
+      grid-column-start: 2;
+    }
+  }
+  @media (min-width: 900px) {
+    :root {
+      --columns: 7;
+    }
+    li:nth-child(4n-1) {
+      grid-column-start: auto;
+    }
+    li:nth-child(6n-2) {
+      grid-column-start: 2;
+    }
+  }
+  @media (min-width: 1200px) {
+    :root {
+      --columns: 9;
+    }
+    li:nth-child(6n-2) {
+      grid-column-start: auto;
+    }
+    li:nth-child(8n-3) {
+      grid-column-start: 2;
+    }
+  }
+  @media (min-width: 1500px) {
+    :root {
+      --columns: 11;
+    }
+    li:nth-child(8n-3) {
+      grid-column-start: auto;
+    }
+    li:nth-child(10n-4) {
+      grid-column-start: 2;
+    }
+  }
+  @media (min-width: 1800px) {
+    :root {
+      --columns: 13;
+    }
+    li:nth-child(10n-4) {
+      grid-column-start: auto;
+    }
+    li:nth-child(12n-5) {
+      grid-column-start: 2;
+    }
+  }
+  @media (min-width: 2100px) {
+    :root {
+      --columns: 15;
+    }
+    li:nth-child(12n-5) {
+      grid-column-start: auto;
+    }
+    li:nth-child(14n-6) {
+      grid-column-start: 2;
+    }
+  }
+  
+
+
