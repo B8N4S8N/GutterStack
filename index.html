@@ -19,11 +19,12 @@
     
     <style>
       #gumroad-follow-form-embed {
+        width: 33%;
         margin: 10px;
         padding-top: 0px;
         box-sizing: border-box;
         min-width: 0px;
-        display: grid;
+        display: inline-flex;
         grid-auto-flow: column;
         gap: 0.75rem;
         grid-template-columns: 1fr;
@@ -32,6 +33,7 @@
       }
     
       #gumroad-follow-form-embed-button {
+        
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
@@ -55,12 +57,12 @@
         text-decoration: none;
         transition: all 0.14s ease-out 0s;
         background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
+        color: rgb(255, 144, 232);
       }
     
       #gumroad-follow-form-embed-button:hover {
         transform: translate(-.25rem, -0.25rem);
-        box-shadow: rgb(27, 247, 214) 0.25rem 0.25rem;
+        box-shadow: rgb(27, 247, 214) 0.333rem 0.333rem;
         background-color: var(--accent);
         color: var(--contrast-accent);
       }
@@ -82,7 +84,7 @@
         width: 100%;
         background-color: rgb(0, 0, 0);
         color: rgb(255, 144, 232);
-        --active-bg: #f4f4f0;
+        --active-bg: #ffffff;
       }
     
       #gumroad-follow-form-embed-input::placeholder {
@@ -90,7 +92,7 @@
       }
     
       #gumroad-follow-form-embed-input:focus-within {
-        outline: rgb(236, 247, 27) solid .125rem;
+        outline: rgb(236, 247, 27) solid .666rem;
       }
     
       #gumroad-follow-form-embed-input:disabled {
@@ -99,11 +101,11 @@
       }
     
       #gumroad-follow-form-embed-input:read-only {
-        background-color: rgb(244, 244, 240);
+        background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
       }
     </style>
-    <form class="input-with-button" action="https://app.gumroad.com/follow_from_embed_form" method="post" style="--accent:#ff90e8;--contrast-accent:#000000" id="gumroad-follow-form-embed"><input type="hidden" name="seller_id" value="7643827972519" /><input type="email" id="gumroad-follow-form-embed-input" placeholder="Enter your E-mail" name="email" value="" /><button id="gumroad-follow-form-embed-button" class="primary" type="submit">Follow Us</button></form>
+    <form class="input-with-button" action="https://app.gumroad.com/follow_from_embed_form" method="post" style="--accent:#ff90e8;--contrast-accent:#000000" id="gumroad-follow-form-embed"><input type="hidden" name="seller_id" value="7643827972519" /><input type="email" id="gumroad-follow-form-embed-input" placeholder="Enter your E-mail" name="email" value="" /><button id="gumroad-follow-form-embed-button" class="primary" type="submit">Follow</button></form>
     <a href="About/about.html">ABOUT</a>   <a href="GutterKicks/gutterkicks.html">GUTTERKICKS</a>
     <a href="https://guttermade.gumroad.com/l/JointheGang" data-gumroad-single-product="true"><button class="ganggang">Join the Gang</button></a>
     
