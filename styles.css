@@ -60,7 +60,7 @@ li {
   width: 98%;
   height: 95%;
   top: 0;
-  background-color: #53b3cb;
+  background-color:  rgb(255, 144, 232);
   border-radius: 2vw;
   -webkit-filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.4));
   filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.4));
@@ -70,10 +70,10 @@ li {
 }
 
 li:nth-child(3n + 1) .details {
-  background-color: #f9c22e;
+  background-color: rgb(236, 247, 27);
 }
 li:nth-child(3n + 2) .details {
-  background-color: #35ce8d;
+  background-color: rgb(27, 247, 214);
 }
 .product {
   position: absolute;
@@ -94,16 +94,16 @@ img {
 }
 h6,
 p {
-  background-color: #53b3cb;
+  background-color:  rgb(255, 144, 232);
   padding: 0.4em;
 }
 li:nth-child(3n + 1) h6,
 li:nth-child(3n + 1) p {
-  background-color: #f9c22e;
+  background-color: rgb(236, 247, 27);
 }
 li:nth-child(3n + 2) h6,
 li:nth-child(3n + 2) p {
-  background-color: #35ce8d;
+  background-color: rgb(27, 247, 214);
 }
 
 h6 {
